@@ -1,0 +1,29 @@
+.quote_container {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  padding: 50px;
+  color: white;
+  background-color: transparent black;
+}
+.quote {
+  font-size: calc(10px + 2vmin);
+  /* font-size: calc(30px - 2vmin); */
+  text-align: left;
+  line-height: 2rem;
+  font-family: "Nanum Gothic", sans-serif;
+}
+.author {
+  font-style: italic;
+  display: flex;
+  align-items: flex-end;
+  justify-items: right;
+  line-height: 3rem;
+  font-size: smaller;
+}
+@media (max-width: 700px) {
+  .quote_container {
+    font-weight: bolder;
+    box-sizing: content-box;
+  }
+}
